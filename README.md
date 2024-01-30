@@ -1,32 +1,12 @@
-Currency Converter
-This is a simple currency converter application that allows users to convert between different currencies.
+## Currency Converter
+This is a simple currency converter web application built using HTML and JavaScript.
 
-Features
-Convert between multiple currencies.
-Support for over 100 different currencies.
-Real-time exchange rates updated every hour.
-User-friendly interface.
-Technologies Used
-Programming Language: Python
-Framework: Flask
-API: ExchangeRate-API
-Frontend: HTML, CSS, JavaScript
-Version Control: Git
-Deployment: Heroku
-Usage
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/currency-converter.git
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the application:
-
-bash
-Copy code
-python app.py
-Open your web browser and go to http://localhost:5000 to access the application.
+# Features
+Convert from one currency to another using real-time exchange rates.
+Supports conversion between multiple currencies.
+#Usage
+Open index.html in a web browser.
+Select the currency you want to convert from in the "From" dropdown menu.
+Select the currency you want to convert to in the "To" dropdown menu.
+Enter the amount you want to convert in the input field.
+The converted amount will be displayed below the input field.
